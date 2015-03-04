@@ -57,6 +57,7 @@ class LogoBar(Canvas):
 			rcvs.pack(side = 'top')
 
 	def resizeImage(self, residue, height, width):
+		residue = random.choice('ACGT')
 		origin = Image.open(IMAGE_PATH+residue+'.png')
 		origin = origin.resize((int(width), int(height)), Image.ANTIALIAS)
 		filepath = self.randomFileName()

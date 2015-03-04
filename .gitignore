@@ -1,5 +1,6 @@
-*/*.pyc
+*.pyc
 */*test*
-*/.DS_Store
+*.pdb
+.DS_Store
 */*.swp
 */*.pdb
